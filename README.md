@@ -9,4 +9,4 @@ Configuration Guide:
   4. Connect to DB before run the program
 Have fun!
 
-*original work on OpenCV part is by Jim oconnorhorrill whoes tutorial can be found at https://github.com/oconnorhorrill/Face-Recognition. 
+*original work on OpenCV part is by Jim oconnorhorrill whose tutorial can be found at https://github.com/oconnorhorrill/Face-Recognition. 
