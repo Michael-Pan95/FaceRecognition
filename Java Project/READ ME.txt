@@ -1,0 +1,6 @@
+* Please follow the steps to run the program:-
+* 1.Add open CV package 3.1.0 with contrib folder.
+* 2.Remove any missing libraries.
+* 3.Add VMI path.
+* 4.Start server for JavaDB.
+* 5.Run the project.

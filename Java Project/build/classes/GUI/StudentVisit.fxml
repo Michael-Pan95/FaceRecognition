@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="368.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="bt_saveVisit" layoutX="313.0" layoutY="329.0" mnemonicParsing="false" onAction="#saveVisit" text="Save Visit" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="215.0" />
+      <Button fx:id="bt_returnToMain" layoutX="446.0" layoutY="329.0" mnemonicParsing="false" onAction="#returnToMain" text="Return to Main" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+      <AnchorPane layoutX="50.0" layoutY="70.0" style="-fx-background-color: #cc002b;" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="70.0" />
+      <Label layoutX="52.0" layoutY="27.0" text="What is the reason for the student's Visit?" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="50.0" />
+      <AnchorPane layoutX="50.0" layoutY="116.0" style="-fx-background-color: #cc002b;" AnchorPane.bottomAnchor="136.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="116.0">
+         <children>
+            <AnchorPane prefHeight="116.0" prefWidth="500.0" style="-fx-background-color: #f2f2f2;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+               <children>
+                  <ChoiceBox fx:id="cb_reason" layoutX="40.0" layoutY="37.0" prefHeight="31.0" prefWidth="412.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

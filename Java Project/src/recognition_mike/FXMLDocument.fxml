@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane prefHeight="760.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="recognition_mike.FXMLDocumentController">
+   <children>
+      <HBox alignment="TOP_CENTER" layoutX="50.0" layoutY="50.0" style="-fx-background-color: #cc002b;" AnchorPane.bottomAnchor="270.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <ImageView fx:id="originalFrame" fitHeight="397.0" fitWidth="674.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+      <Button fx:id="cameraButton" layoutX="87.0" layoutY="516.0" mnemonicParsing="false" onAction="#startCamera" text="Start Camera" />
+      <AnchorPane layoutX="525.0" layoutY="482.0" prefHeight="226.0" prefWidth="237.0" AnchorPane.bottomAnchor="35.0" AnchorPane.rightAnchor="35.0">
+         <children>
+            <TextField fx:id="newUserName" layoutX="29.0" layoutY="113.0" onAction="#newUserSelected" />
+            <Button fx:id="bt_recordNewStudent" layoutX="40.0" layoutY="152.0" mnemonicParsing="false" onAction="#recordNewStudent" text="Record New Student" />
+            <CheckBox fx:id="newUser" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#newUserSelected" text="Create New Student" />
+            <Label layoutX="14.0" layoutY="35.0" prefHeight="69.0" prefWidth="217.0" text="To record a new user enter their AndrewID, check the box, and click &quot;Record New Student&quot;" wrapText="true" />
+            <Button fx:id="bt_newStudInfo" layoutX="6.0" layoutY="191.0" mnemonicParsing="false" onAction="#enterNewStudentInformation" text="Enter New Student Information" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </AnchorPane>
+      <ImageView fitHeight="150.0" fitWidth="418.0" layoutX="35.0" layoutY="609.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="35.0">
+         <image>
+            <Image url="@../Heinz_School_Australia.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="bt_viewStudent" layoutX="303.0" layoutY="516.0" mnemonicParsing="false" onAction="#viewStudentButton" text="View Student" />
+      <Button fx:id="bt_recordVisit" layoutX="307.0" layoutY="558.0" mnemonicParsing="false" onAction="#recordStudentVisit" text="Record Visit" />
+      <Button fx:id="gender_report" layoutX="50.0" layoutY="14.0" mnemonicParsing="false" onAction="#genderReport" text="Gender Report" />
+      <Button fx:id="report_but" layoutX="629.0" layoutY="14.0" mnemonicParsing="false" onAction="#reasonReport" text="Reason Report" />
+   </children>
+</AnchorPane>

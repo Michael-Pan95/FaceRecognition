@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Java Project.jnlp">
+  <information>
+    <title>Java Project</title>
+    <vendor>Michael</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-Djava.library.path="D:\NetBeans 8.2\openCV3.1\opencv\build\java\x64" "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Java_Project.jar" size="44226" download="eager" />
+    <jar href="lib\derby.jar" size="3104883" download="eager" />
+    <jar href="lib\derbyclient.jar" size="585704" download="eager" />
+    <jar href="lib\derbynet.jar" size="266471" download="eager" />
+    <jar href="lib\opencv-310.jar" size="324300" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Java Project" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="recognition_mike.Recognition"  name="Java Project" />
+  <update check="always"/>
+</jnlp>
